@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Selecció de vins</title>
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+		}
+	</style>
+</head>
+<body>
+<h1 style="text-align:center;">Pàgina de selecció de vins</h1>
+<p>Seleccioneu una opció:</p>
+<form action="SelectVi.do" method="POST">
+	<label for="color">Color:</label>
+	<select id="color" name="color">
+		<option value="negre">Negre</option>
+		<option value="rosat">Rosat</option>
+		<option value="blanc">Blanc</option>
+	</select>
+	<p style="margin-top: 50px;">
+		<button type="submit">Enviar</button>
+	</p>
+</form>
+</body>
+</html>
